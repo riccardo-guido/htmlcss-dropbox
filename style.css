@@ -24,6 +24,12 @@
   max-width: 1180px;
 }
 
+#business-plan,
+#find-partner,
+#utilities,
+#clients {
+  padding-top: 100px;
+}
 .small-button,
 .small-button-2 {
   background-color: #0062fe;
@@ -36,11 +42,6 @@
   padding: 10px 15px;
 }
 
-/* h2 {
-  text-align: left;
-  font-size: 2rem;
-  padding: 50px;
-} */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -96,9 +97,12 @@ nav img {
   font-size: 4rem;
   font-weight: bold;
 }
-#jumbo p,
-button {
+#jumbo p {
   padding: 30px 0px;
+  font-size: small;
+}
+.small-button-2 {
+  padding: 10px;
   font-size: small;
 }
 
@@ -124,10 +128,31 @@ button {
   width: 30%;
   margin: 30px 0px;
 }
-.secondcol-1-3 {
-  width: calc(100% / 5);
+.col-60 {
+  width: 60%;
 }
-
+.col-40 {
+  width: 40%;
+}
+.col-20 {
+  width: 20%;
+}
 .payment-type {
   display: flex;
+}
+
+.card {
+  border: 1px dashed black;
+}
+
+/* FIND PARTNER */
+
+#find-partner img {
+  max-width: 500px;
+}
+
+/* UTILITIES */
+
+#utilities img {
+  max-width: 300px;
 }
