@@ -23,6 +23,12 @@
 .container.container-xl {
   max-width: 1180px;
 }
+.container.container-s {
+  max-width: 800px;
+}
+.container.container-b {
+  max-width: 900px;
+}
 
 #business-plan,
 #find-partner,
@@ -109,7 +115,6 @@ nav img {
 [class*="col"] {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  /* border: 1px dashed black; */
 }
 
 .col {
@@ -141,18 +146,83 @@ nav img {
   display: flex;
 }
 
-.card {
-  border: 1px dashed black;
+.card,
+.card-header {
+  border: 1px solid grey;
+}
+/* BUSINESS PLAN */
+#business-plan h2 {
+  padding: 50px 0px;
+  font-size: 2rem;
+}
+.payment-type {
+  padding-bottom: 50px;
+}
+label {
+  padding-right: 50px;
+}
+#business-plan .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  text-align: center;
+}
+.card-main,
+.card-footer {
+  padding: 30px 15px;
+}
+.card-main .bold {
+  font-weight: bold;
+}
+
+.card-main .grey {
+  color: grey;
 }
 
 /* FIND PARTNER */
 
 #find-partner img {
-  max-width: 500px;
+  max-width: 450px;
+}
+#find-partner h4,
+p,
+button {
+  padding: 10px 0px;
+  font-size: small;
+}
+#find-partner h4 {
+  padding-top: 50px;
+  font-size: large;
+}
+#find-partner button {
+  background-color: white;
+  padding: 10px;
+}
+#find-partner p {
+  line-height: 1.5;
 }
 
 /* UTILITIES */
 
 #utilities img {
-  max-width: 300px;
+  max-width: 250px;
+}
+
+.card-ut {
+  max-width: 250px;
+  font-size: small;
+  line-height: 1.5;
+}
+
+/* CLIENTS */
+#clients h2 {
+  font-size: xx-large;
+}
+
+#clients h2,
+a {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
