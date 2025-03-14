@@ -20,9 +20,6 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-.container.container-xl {
-  max-width: 1180px;
-}
 .container.container-s {
   max-width: 800px;
 }
@@ -50,6 +47,8 @@
   background-color: #0062fe;
   color: white;
   border: 0;
+  font-size: small;
+  min-width: 150px;
 }
 .row {
   display: flex;
@@ -57,6 +56,10 @@
   row-gap: 1rem;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
+}
+
+.row-xl {
+  justify-content: space-between;
 }
 
 /* HEADER */
@@ -165,7 +168,7 @@ nav img {
   border-bottom: 1px solid grey;
 }
 /* BUSINESS PLAN */
-#business-plan h2 {
+.h2-bt {
   padding: 50px 0px;
   font-size: 2rem;
 }
@@ -182,6 +185,7 @@ label {
 
 .card-header {
   text-align: center;
+  padding: 5px;
 }
 .card-main {
   padding: 30px 15px;
@@ -201,6 +205,15 @@ label {
   color: grey;
 }
 
+.card-full {
+  padding: 0px 0px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+#business-plan .col70 {
+  margin: 0px 20px;
+}
 /* FIND PARTNER */
 
 #find-partner img {
@@ -245,4 +258,20 @@ button {
 a {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+/* FOOTER */
+.page-footer {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  margin-top: 150px;
+}
+.page-footer ul,
+li {
+  list-style: none;
+  padding: 10px 0px;
+}
+.page-footer li {
+  font-size: small;
 }
